@@ -9,22 +9,22 @@ const Hero = () => {
         <div className="text-center lg:text-left space-y-8">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl font-kids bg-gradient-primary bg-clip-text text-transparent animate-bounce-gentle">
-              Where Kids Learn & Play Safely!
+              Kids Stuff Delivered in Minutes!
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground font-comic">
-              The most fun and safe app for children aged 4-12. Educational games, 
-              creative activities, and supervised social features designed just for kids!
+              The fastest way to get toys, snacks, books, and everything kids love. 
+              Safe products, curated for children, delivered to your door in under 30 minutes!
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button variant="hero" size="hero" className="group">
               <Download className="w-6 h-6 group-hover:animate-bounce-gentle" />
-              Download Free App
+              Order Now - Free Delivery
             </Button>
             <Button variant="secondary" size="hero" className="group">
               <Heart className="w-5 h-5 group-hover:animate-wiggle" />
-              Learn More
+              Browse Products
             </Button>
           </div>
           
@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <Smartphone className="w-4 h-4" />
-              <span>100% Safe & Ad-Free</span>
+              <span>30-min delivery</span>
             </div>
           </div>
         </div>

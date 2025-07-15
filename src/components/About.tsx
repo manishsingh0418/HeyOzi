@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Shield, Star, Users } from "lucide-react";
+import { Clock, Shield, Star, Package } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { number: "50K+", label: "Happy Kids", icon: Heart },
-    { number: "100%", label: "Safe Content", icon: Shield },
+    { number: "10K+", label: "Happy Families", icon: Package },
+    { number: "30min", label: "Avg Delivery", icon: Clock },
     { number: "4.9★", label: "Parent Rating", icon: Star },
-    { number: "10K+", label: "Families", icon: Users }
+    { number: "100%", label: "Safe Products", icon: Shield }
   ];
 
   return (
@@ -16,24 +16,24 @@ const About = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-5xl font-kids bg-gradient-primary bg-clip-text text-transparent">
-                Made by Parents, for Parents
+                Quick Commerce for Busy Parents
               </h2>
               <p className="text-lg text-muted-foreground font-comic leading-relaxed">
-                We're a team of parents and child development experts who believe 
-                technology should enhance childhood, not replace real-world experiences. 
-                Our app is designed to inspire creativity, support learning, and 
-                keep kids safe in the digital world.
+                We're parents too, and we know how challenging it can be to keep kids happy 
+                while managing busy schedules. That's why we created the fastest way to get 
+                everything kids need - from last-minute birthday gifts to healthy snacks 
+                for school lunches.
               </p>
               <p className="text-lg text-muted-foreground font-comic leading-relaxed">
-                Every feature is tested with real families and approved by child 
-                safety experts. No data collection, no advertising, just pure fun 
-                and learning for your little ones.
+                Every product is hand-selected by our team of parents and child safety experts. 
+                No questionable toys, no unhealthy snacks - just quality items that kids love 
+                and parents trust, delivered in minutes.
               </p>
             </div>
             
             <Button variant="playful" size="lg" className="group">
-              <Heart className="w-5 h-5 group-hover:animate-wiggle" />
-              Meet Our Team
+              <Package className="w-5 h-5 group-hover:animate-wiggle" />
+              View Our Products
             </Button>
           </div>
           

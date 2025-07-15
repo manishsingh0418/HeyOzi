@@ -1,43 +1,43 @@
-import { Shield, Gamepad2, Palette, Music, BookOpen, Users } from "lucide-react";
+import { Clock, Package, Shield, Truck, Star, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import appFeatures from "@/assets/app-features.jpg";
 
 const Features = () => {
   const features = [
     {
-      icon: Shield,
-      title: "100% Safe",
-      description: "No ads, no inappropriate content, completely safe environment for kids",
+      icon: Clock,
+      title: "30-Min Delivery",
+      description: "Lightning-fast delivery of toys, snacks, and kids essentials to your door",
       color: "text-primary"
     },
     {
-      icon: Gamepad2,
-      title: "Fun Games",
-      description: "Educational games that make learning math, reading, and science exciting",
+      icon: Package,
+      title: "Curated for Kids",
+      description: "Age-appropriate toys, healthy snacks, and educational materials handpicked for children",
       color: "text-secondary"
     },
     {
-      icon: Palette,
-      title: "Creative Tools",
-      description: "Digital art, music maker, and storytelling tools to spark creativity",
+      icon: Shield,
+      title: "Safe Products",
+      description: "All items are safety-tested, non-toxic, and meet strict child safety standards",
       color: "text-accent"
     },
     {
-      icon: Music,
-      title: "Music & Songs",
-      description: "Kid-friendly songs, nursery rhymes, and music creation activities",
+      icon: Truck,
+      title: "Free Delivery",
+      description: "No delivery fees on orders over $25 - making it affordable for families",
       color: "text-primary"
     },
     {
-      icon: BookOpen,
-      title: "Interactive Stories",
-      description: "Engaging stories that adapt to your child's reading level and interests",
+      icon: Star,
+      title: "Quality Brands",
+      description: "Top kids brands and local favorites that parents trust and children love",
       color: "text-secondary"
     },
     {
       icon: Users,
-      title: "Safe Social",
-      description: "Supervised interactions with friends and family members only",
+      title: "Family-Friendly",
+      description: "Easy ordering for busy parents with kid-safe packaging and delivery",
       color: "text-accent"
     }
   ];
@@ -47,10 +47,10 @@ const Features = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-kids bg-gradient-primary bg-clip-text text-transparent mb-6">
-            Everything Kids Love in One App
+            Everything Kids Need, Delivered Fast
           </h2>
           <p className="text-lg text-muted-foreground font-comic max-w-2xl mx-auto">
-            Designed by child development experts and loved by parents worldwide
+            From toys to snacks to learning materials - we've got parents covered with quick, reliable delivery
           </p>
         </div>
         
@@ -71,7 +71,7 @@ const Features = () => {
         <div className="text-center">
           <img 
             src={appFeatures} 
-            alt="App features preview" 
+            alt="Kids products and delivery preview" 
             className="max-w-md mx-auto rounded-3xl shadow-soft animate-float"
           />
         </div>
