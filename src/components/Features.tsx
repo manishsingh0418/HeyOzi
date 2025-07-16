@@ -72,7 +72,7 @@ const Features = () => {
           <img 
             src={appFeatures} 
             alt="Kids products and delivery preview" 
-            className="max-w-md mx-auto rounded-3xl shadow-soft animate-float"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto mx-auto rounded-3xl shadow-soft animate-float mt-4"
           />
         </div>
       </div>
