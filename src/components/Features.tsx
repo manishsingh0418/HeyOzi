@@ -46,7 +46,7 @@ const Features = () => {
     <section className="py-20 px-4 bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-kids bg-gradient-primary bg-clip-text text-transparent mb-6">
+          <h2 className="text-3xl md:text-5xl font-kids bg-gradient-primary bg-clip-text text-transparent mb-6 pb-4">
             Everything Kids Need, Delivered Fast
           </h2>
           <p className="text-lg text-muted-foreground font-comic max-w-2xl mx-auto">

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Smartphone, ShoppingCart, Apple, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AppDownload = () => {
   return (
@@ -20,22 +21,26 @@ const AppDownload = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              variant="secondary" 
-              size="hero" 
-              className="group bg-card hover:bg-card/90 text-card-foreground"
-            >
-              <Apple className="w-6 h-6 group-hover:animate-bounce-gentle" />
-              Download for iOS
-            </Button>
-            <Button 
-              variant="secondary" 
-              size="hero" 
-              className="group bg-card hover:bg-card/90 text-card-foreground"
-            >
-              <Play className="w-6 h-6 group-hover:animate-bounce-gentle" />
-              Download for Android
-            </Button>
+            <Link to="/coming-soon">
+              <Button 
+                variant="secondary" 
+                size="hero" 
+                className="group bg-card hover:bg-card/90 text-card-foreground"
+              >
+                <Apple className="w-6 h-6 group-hover:animate-bounce-gentle" />
+                Download for iOS
+              </Button>
+            </Link>
+            <Link to="/coming-soon">
+              <Button 
+                variant="secondary" 
+                size="hero" 
+                className="group bg-card hover:bg-card/90 text-card-foreground"
+              >
+                <Play className="w-6 h-6 group-hover:animate-bounce-gentle" />
+                Download for Android
+              </Button>
+            </Link>
           </div>
           
           <div className="bg-white/10 rounded-3xl p-6 backdrop-blur-sm">
